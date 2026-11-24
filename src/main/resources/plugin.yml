@@ -1,0 +1,14 @@
+name: MapReset
+version: 2.3.0
+main: cn.mapreset.MapResetPlugin
+api-version: '1.16'
+load: STARTUP
+loadbefore: [Multiverse-Core]
+description: Online isolated world resets and terrain-aware reserve map generation
+commands:
+  mapreset:
+    description: 在线三界重置、大厅与备用地图管理
+    usage: /mapreset <status|setup|generate|reset|recover|rollback|check|reloadstructures|model|play>
+permissions:
+  mapreset.admin:
+    default: op

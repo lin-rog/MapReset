@@ -1,0 +1,22 @@
+{
+  "paper": {
+    "version": "1.16.5",
+    "build": 794,
+    "source": "https://fill-data.papermc.io/v1/objects/e67da4851d08cde378ab2b89be58849238c303351ed2482181a99c2c2b489276/paper-1.16.5-794.jar",
+    "sha256": "e67da4851d08cde378ab2b89be58849238c303351ed2482181a99c2c2b489276",
+    "bytes": 53944842,
+    "downloaded": true
+  },
+  "vanilla_server": {
+    "bytes": 37962360,
+    "reused": true
+  },
+  "java": {
+    "runtime": "Temurin 8u504",
+    "reused": true
+  },
+  "maven_dependencies": "offline local cache",
+  "eula": "User explicitly accepted for local tests only",
+  "network_binding": "127.0.0.1:25576",
+  "docs": "https://docs.papermc.io/paper/getting-started/"
+}

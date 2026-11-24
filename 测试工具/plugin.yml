@@ -1,0 +1,12 @@
+name: RoadProbe
+version: 1.0
+main: cn.mapreset.probe.RoadProbe
+api-version: 1.16
+depend: [MapReset]
+commands:
+  roadprobe:
+    description: Local integration tests
+    permission: roadprobe.admin
+permissions:
+  roadprobe.admin:
+    default: op

@@ -1,0 +1,40 @@
+config-version: 2
+# 一次性 setup 会把大厅设为server.properties的level-name；之后reset不重启。
+lobby:
+  name: mapreset_lobby
+active:
+  overworld: auto
+  nether: auto
+  end: auto
+generation:
+  enabled: true
+  chunks-per-tick: 1
+  columns-per-tick: 24
+  tree-nodes-per-tick: 256 # 整树扫描/清理每tick节点预算
+  candidate-attempts: 1200
+  foundation-max-depth: 255
+blocks:
+  road-a: STONE
+  road-b: COBBLESTONE
+  foundation-c: STONE_BRICKS # 固定石砖，保留键仅兼容旧配置，不读取
+  road-stair-c: STONE_BRICK_STAIRS
+  road-stair-d: OAK_STAIRS
+  road-b-ratio: 0.35
+roads:
+  max-detour-ratio: 2.0
+# 仅首次创建示例结构使用。实际尺寸、第一层和入口以structures/<id>.yml为准。
+structures:
+  a: {width: 13, depth: 13}
+  b: {width: 15, depth: 15}
+  c: {width: 15, depth: 15}
+  d: {width: 11, depth: 11}
+  e: {width: 11, depth: 11}
+  f: {width: 11, depth: 11}
+  g: {width: 11, depth: 11}
+  h: {width: 11, depth: 11}
+  i: {width: 11, depth: 11}
+
+placeholders:
+  enabled: true
+  min-size: 9
+  max-size: 19

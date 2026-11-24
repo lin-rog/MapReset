@@ -1,0 +1,11 @@
+{
+  "source": "Paper 1.16.5 build 794 exported real blocks and NMS collision shapes",
+  "road_blocks": 2142,
+  "sampled_foot_positions": 9756,
+  "steps_over_0_6": 0,
+  "missing_walk_surface": 0,
+  "max_abs_step": 0.5,
+  "cliff_examples": [],
+  "backtracking_segments": 0,
+  "min_forward_step": 0.031240569974585058
+}
